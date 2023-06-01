@@ -4,8 +4,6 @@ import dash
 from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output
-from IPython.display import display, Markdown
-import plotly.io as pio
 import dash_bootstrap_components as dbc
 
 API_KEY = ""
@@ -136,4 +134,4 @@ def generate_output(n_clicks, prompt, api_key, model):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)
