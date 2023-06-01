@@ -96,7 +96,6 @@ app.layout = html.Div(
         ),
         html.Div(id="error-message", style={"color": "red", "marginTop": "10px"}),
         html.Div(id="output-div"),
-        dbc.Spinner(html.Div(id="loading-output"), color="primary", type="grow", fullscreen=True),
     ]
 )
 
@@ -135,4 +134,4 @@ def generate_output(n_clicks, prompt, api_key, model):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
