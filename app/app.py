@@ -134,5 +134,6 @@ def generate_output(n_clicks, prompt, api_key, model):
 
     return "", "Please enter a prompt."  # Show error message for missing prompt
 
+
 if __name__ == '__main__':
     app.run_server(debug=False)
