@@ -60,7 +60,7 @@ app.layout = html.Div(
                     id="model-dropdown",
                     options=[
                         {"label": "GPT-4", "value": "gpt-4"},
-                        {"label": "GPT-3.5-turbo", "value": "gpt-3.5-turbo"}
+                        {"label": "GPT-3.5-turbo", "value": "gpt-3.5-turbo-0613"}
                     ],
                     value="gpt-4",
                     style={"width": "100%", "padding": "10px", "fontSize": "16px", "borderRadius": "10px"},
